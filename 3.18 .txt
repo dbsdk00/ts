@@ -1,0 +1,20 @@
+3.18 
+오늘 공부할 것
+try-catch, any, unkown, union, toFixed(), type, typeof
+
+try {
+    // 예외가 발생할 수 있는 코드
+    throw new Error('Oops! Something went wrong'); // 일부러 오류를 발생시키는 코드
+} catch (error) {
+    // 예외가 발생했을 때 처리하는 코드
+    console.error(error);
+}
+
+try(catch) - 코드 예외 처리
+
+any - 다양한 타입 사용 가능 / 안전성 저해, 가독성,유지보수성 낮춤
+unkown - 다양한 타입 사용 가능 / 타입 검사를 통해 타입의 안정성 유지
+
+union - 여러 타입 중 하나가 될 수 있는 타입을 정의하는 방법. Union은 두 개 이상의 타입을 "|" 연산자로 결합하여 하나의 타입으로 정의합니다.
+
+toFixed(2) - 숫자를 문자열로 반환
